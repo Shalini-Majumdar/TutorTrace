@@ -9,7 +9,9 @@ from backend.app.services.teacher_service import (
 from backend.app.models.schemas import (
     SubmitAnswerRequest
 )
-
+from fastapi.middleware.cors import (
+    CORSMiddleware
+)
 from backend.app.services.student_service import (
     start_student,
     get_next_question,
@@ -19,19 +21,37 @@ from backend.app.services.student_service import (
 )
 
 
+import os
+
 app = FastAPI(
-    title="TutorTrace API",
-    description=(
-        "Adaptive tutoring backend using "
-        "Bayesian Knowledge Tracing, "
-        "response-aware evidence, "
-        "misconception diagnostics and "
-        "prerequisite reasoning."
-    ),
-    version="0.1.0"
+    title="TutorTrace API"
 )
 
 
+frontend_url = os.getenv(
+    "FRONTEND_URL"
+)
+
+
+allowed_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+
+
+if frontend_url:
+    allowed_origins.append(
+        frontend_url.rstrip("/")
+    )
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # ==========================================================
 # ROOT
 # ==========================================================

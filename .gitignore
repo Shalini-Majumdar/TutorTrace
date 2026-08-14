@@ -1,21 +1,19 @@
-# Python environments
+# Python
 venv/
 backend/venv/
-offline_fitting/venv/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# Pytest
 .pytest_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+frontend/.env
+backend/.env
 
 # IDE
 .vscode/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment variables
-.env
