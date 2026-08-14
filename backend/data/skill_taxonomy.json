@@ -1,0 +1,66 @@
+{
+    "integer_operations": {
+        "display_name": "Integer Operations",
+        "description": "Addition, subtraction, multiplication and division involving positive and negative integers.",
+        "prerequisites": []
+    },
+
+    "fraction_operations": {
+        "display_name": "Fraction Operations",
+        "description": "Addition, subtraction and manipulation of fractions and equivalent forms.",
+        "prerequisites": [
+            "integer_operations"
+        ]
+    },
+
+    "order_of_operations": {
+        "display_name": "Order of Operations",
+        "description": "Correct evaluation of expressions using operator precedence.",
+        "prerequisites": [
+            "integer_operations"
+        ]
+    },
+
+    "distributive_property": {
+        "display_name": "Distributive Property",
+        "description": "Expanding and simplifying expressions using multiplication over addition or subtraction.",
+        "prerequisites": [
+            "integer_operations",
+            "order_of_operations"
+        ]
+    },
+
+    "one_step_equations": {
+        "display_name": "One-Step Equations",
+        "description": "Solving equations requiring one inverse operation.",
+        "prerequisites": [
+            "integer_operations"
+        ]
+    },
+
+    "two_step_equations": {
+        "display_name": "Two-Step Equations",
+        "description": "Solving equations requiring multiple inverse operations and simplification.",
+        "prerequisites": [
+            "one_step_equations",
+            "order_of_operations"
+        ]
+    },
+
+    "inequalities": {
+        "display_name": "Inequalities",
+        "description": "Solving and interpreting one-variable inequalities, including sign reversal rules.",
+        "prerequisites": [
+            "one_step_equations",
+            "integer_operations"
+        ]
+    },
+
+    "exponents": {
+        "display_name": "Exponents",
+        "description": "Understanding powers and applying basic exponent rules.",
+        "prerequisites": [
+            "integer_operations"
+        ]
+    }
+}

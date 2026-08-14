@@ -1,0 +1,50 @@
+{
+    "Addition and Subtraction Fractions": {
+        "p_l0": 0.781534,
+        "p_t": 0.081927,
+        "p_g": 0.086071,
+        "p_s": 0.206123
+    },
+    "Addition and Subtraction Integers": {
+        "p_l0": 0.719499,
+        "p_t": 0.008524,
+        "p_g": 0.373695,
+        "p_s": 0.209708
+    },
+    "Conversion of Fraction Decimals Percents": {
+        "p_l0": 0.623203,
+        "p_t": 0.013828,
+        "p_g": 0.429021,
+        "p_s": 0.202922
+    },
+    "Equation Solving More Than Two Steps": {
+        "p_l0": 0.304126,
+        "p_t": 0.878602,
+        "p_g": 0.411368,
+        "p_s": 0.229317
+    },
+    "Equation Solving Two or Fewer Steps": {
+        "p_l0": 0.618908,
+        "p_t": 0.024752,
+        "p_g": 0.361541,
+        "p_s": 0.227596
+    },
+    "Ordering Fractions": {
+        "p_l0": 0.647693,
+        "p_t": 0.064945,
+        "p_g": 0.498951,
+        "p_s": 0.071245
+    },
+    "Percent Of": {
+        "p_l0": 0.65907,
+        "p_t": 0.109424,
+        "p_g": 0.091076,
+        "p_s": 0.28151
+    },
+    "Proportion": {
+        "p_l0": 0.493571,
+        "p_t": 0.040422,
+        "p_g": 0.390766,
+        "p_s": 0.157831
+    }
+}

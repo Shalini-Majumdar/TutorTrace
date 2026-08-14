@@ -1,0 +1,728 @@
+[
+  {
+    "student_id": "student_001",
+    "name": "Aarav",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.82,
+        "attempts": 12,
+        "correct_attempts": 10,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "fraction_operations": {
+        "mastery": 0.71,
+        "attempts": 9,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "order_of_operations": {
+        "mastery": 0.76,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "distributive_property": {
+        "mastery": 0.64,
+        "attempts": 8,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "one_step_equations": {
+        "mastery": 0.74,
+        "attempts": 11,
+        "correct_attempts": 9,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "two_step_equations": {
+        "mastery": 0.22,
+        "attempts": 9,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 2
+      },
+      "inequalities": {
+        "mastery": 0.59,
+        "attempts": 7,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "exponents": {
+        "mastery": 0.68,
+        "attempts": 7,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {
+      "inverse_operation_error": 3,
+      "sign_error": 1
+    },
+    "misconceptions_by_skill": {
+      "two_step_equations": {
+        "inverse_operation_error": 3
+      },
+      "integer_operations": {
+        "sign_error": 1
+      }
+    }
+  },
+
+  {
+    "student_id": "student_002",
+    "name": "Diya",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.78,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "fraction_operations": {
+        "mastery": 0.65,
+        "attempts": 8,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "order_of_operations": {
+        "mastery": 0.69,
+        "attempts": 9,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "distributive_property": {
+        "mastery": 0.58,
+        "attempts": 7,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "one_step_equations": {
+        "mastery": 0.26,
+        "attempts": 8,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 2
+      },
+      "two_step_equations": {
+        "mastery": 0.18,
+        "attempts": 10,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 2
+      },
+      "inequalities": {
+        "mastery": 0.55,
+        "attempts": 6,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "exponents": {
+        "mastery": 0.62,
+        "attempts": 6,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {
+      "inverse_operation_error": 4,
+      "coefficient_isolation_error": 2
+    },
+    "misconceptions_by_skill": {
+      "one_step_equations": {
+        "inverse_operation_error": 2
+      },
+      "two_step_equations": {
+        "inverse_operation_error": 2,
+        "coefficient_isolation_error": 2
+      }
+    }
+  },
+
+  {
+    "student_id": "student_003",
+    "name": "Ishaan",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.88,
+        "attempts": 14,
+        "correct_attempts": 12,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "fraction_operations": {
+        "mastery": 0.73,
+        "attempts": 9,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "order_of_operations": {
+        "mastery": 0.79,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "distributive_property": {
+        "mastery": 0.67,
+        "attempts": 8,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "one_step_equations": {
+        "mastery": 0.72,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "two_step_equations": {
+        "mastery": 0.24,
+        "attempts": 8,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "inequalities": {
+        "mastery": 0.61,
+        "attempts": 7,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "exponents": {
+        "mastery": 0.70,
+        "attempts": 8,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {
+      "coefficient_isolation_error": 2
+    },
+    "misconceptions_by_skill": {
+      "two_step_equations": {
+        "coefficient_isolation_error": 2
+      }
+    }
+  },
+
+  {
+    "student_id": "student_004",
+    "name": "Meera",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.69,
+        "attempts": 9,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "fraction_operations": {
+        "mastery": 0.48,
+        "attempts": 8,
+        "correct_attempts": 4,
+        "last_practiced_at": 1785585600.0,
+        "uncertainty_count": 2
+      },
+      "order_of_operations": {
+        "mastery": 0.57,
+        "attempts": 8,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "distributive_property": {
+        "mastery": 0.49,
+        "attempts": 7,
+        "correct_attempts": 4,
+        "last_practiced_at": 1785585600.0,
+        "uncertainty_count": 1
+      },
+      "one_step_equations": {
+        "mastery": 0.28,
+        "attempts": 9,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 2
+      },
+      "two_step_equations": {
+        "mastery": 0.16,
+        "attempts": 10,
+        "correct_attempts": 2,
+        "last_practiced_at": 1785585600.0,
+        "uncertainty_count": 3
+      },
+      "inequalities": {
+        "mastery": 0.45,
+        "attempts": 7,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 2
+      },
+      "exponents": {
+        "mastery": 0.51,
+        "attempts": 6,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      }
+    },
+    "misconceptions": {
+      "sign_error": 3,
+      "inverse_operation_error": 4
+    },
+    "misconceptions_by_skill": {
+      "integer_operations": {
+        "sign_error": 2
+      },
+      "two_step_equations": {
+        "inverse_operation_error": 4
+      }
+    }
+  },
+
+  {
+    "student_id": "student_005",
+    "name": "Kabir",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.91,
+        "attempts": 13,
+        "correct_attempts": 12,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "fraction_operations": {
+        "mastery": 0.81,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "order_of_operations": {
+        "mastery": 0.84,
+        "attempts": 11,
+        "correct_attempts": 9,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "distributive_property": {
+        "mastery": 0.76,
+        "attempts": 9,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "one_step_equations": {
+        "mastery": 0.79,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "two_step_equations": {
+        "mastery": 0.61,
+        "attempts": 9,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "inequalities": {
+        "mastery": 0.73,
+        "attempts": 8,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "exponents": {
+        "mastery": 0.82,
+        "attempts": 8,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {},
+    "misconceptions_by_skill": {}
+  },
+
+  {
+    "student_id": "student_006",
+    "name": "Anaya",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.75,
+        "attempts": 10,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "fraction_operations": {
+        "mastery": 0.63,
+        "attempts": 8,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "order_of_operations": {
+        "mastery": 0.66,
+        "attempts": 8,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "distributive_property": {
+        "mastery": 0.54,
+        "attempts": 7,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "one_step_equations": {
+        "mastery": 0.27,
+        "attempts": 8,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 2
+      },
+      "two_step_equations": {
+        "mastery": 0.21,
+        "attempts": 9,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 2
+      },
+      "inequalities": {
+        "mastery": 0.52,
+        "attempts": 7,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "exponents": {
+        "mastery": 0.60,
+        "attempts": 6,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {
+      "inverse_operation_error": 3,
+      "sign_error": 2
+    },
+    "misconceptions_by_skill": {
+      "one_step_equations": {
+        "inverse_operation_error": 2
+      },
+      "two_step_equations": {
+        "inverse_operation_error": 1
+      }
+    }
+  },
+
+  {
+    "student_id": "student_007",
+    "name": "Rohan",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.80,
+        "attempts": 11,
+        "correct_attempts": 9,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "fraction_operations": {
+        "mastery": 0.69,
+        "attempts": 9,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "order_of_operations": {
+        "mastery": 0.72,
+        "attempts": 9,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "distributive_property": {
+        "mastery": 0.61,
+        "attempts": 7,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "one_step_equations": {
+        "mastery": 0.68,
+        "attempts": 9,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "two_step_equations": {
+        "mastery": 0.23,
+        "attempts": 9,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 2
+      },
+      "inequalities": {
+        "mastery": 0.58,
+        "attempts": 7,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "exponents": {
+        "mastery": 0.66,
+        "attempts": 7,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {
+      "coefficient_isolation_error": 3
+    },
+    "misconceptions_by_skill": {
+      "two_step_equations": {
+        "coefficient_isolation_error": 3
+      }
+    }
+  },
+
+  {
+    "student_id": "student_008",
+    "name": "Sara",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.67,
+        "attempts": 8,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "fraction_operations": {
+        "mastery": 0.51,
+        "attempts": 7,
+        "correct_attempts": 4,
+        "last_practiced_at": 1785585600.0,
+        "uncertainty_count": 1
+      },
+      "order_of_operations": {
+        "mastery": 0.56,
+        "attempts": 8,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "distributive_property": {
+        "mastery": 0.46,
+        "attempts": 6,
+        "correct_attempts": 3,
+        "last_practiced_at": 1785585600.0,
+        "uncertainty_count": 2
+      },
+      "one_step_equations": {
+        "mastery": 0.25,
+        "attempts": 8,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 2
+      },
+      "two_step_equations": {
+        "mastery": 0.17,
+        "attempts": 9,
+        "correct_attempts": 2,
+        "last_practiced_at": 1785585600.0,
+        "uncertainty_count": 3
+      },
+      "inequalities": {
+        "mastery": 0.43,
+        "attempts": 6,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 2
+      },
+      "exponents": {
+        "mastery": 0.49,
+        "attempts": 6,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      }
+    },
+    "misconceptions": {
+      "inverse_operation_error": 4,
+      "sign_error": 3
+    },
+    "misconceptions_by_skill": {
+      "one_step_equations": {
+        "inverse_operation_error": 2
+      },
+      "two_step_equations": {
+        "inverse_operation_error": 2
+      },
+      "integer_operations": {
+        "sign_error": 2
+      }
+    }
+  },
+
+  {
+    "student_id": "student_009",
+    "name": "Vivaan",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.85,
+        "attempts": 12,
+        "correct_attempts": 10,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "fraction_operations": {
+        "mastery": 0.74,
+        "attempts": 9,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "order_of_operations": {
+        "mastery": 0.77,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "distributive_property": {
+        "mastery": 0.65,
+        "attempts": 8,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "one_step_equations": {
+        "mastery": 0.71,
+        "attempts": 10,
+        "correct_attempts": 8,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      },
+      "two_step_equations": {
+        "mastery": 0.57,
+        "attempts": 8,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "inequalities": {
+        "mastery": 0.63,
+        "attempts": 7,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 0
+      },
+      "exponents": {
+        "mastery": 0.75,
+        "attempts": 7,
+        "correct_attempts": 6,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {},
+    "misconceptions_by_skill": {}
+  },
+
+  {
+    "student_id": "student_010",
+    "name": "Nisha",
+    "skills": {
+      "integer_operations": {
+        "mastery": 0.73,
+        "attempts": 9,
+        "correct_attempts": 7,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "fraction_operations": {
+        "mastery": 0.58,
+        "attempts": 7,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "order_of_operations": {
+        "mastery": 0.62,
+        "attempts": 8,
+        "correct_attempts": 5,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "distributive_property": {
+        "mastery": 0.52,
+        "attempts": 6,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 1
+      },
+      "one_step_equations": {
+        "mastery": 0.24,
+        "attempts": 8,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 2
+      },
+      "two_step_equations": {
+        "mastery": 0.19,
+        "attempts": 9,
+        "correct_attempts": 2,
+        "last_practiced_at": 1786363200.0,
+        "uncertainty_count": 2
+      },
+      "inequalities": {
+        "mastery": 0.49,
+        "attempts": 6,
+        "correct_attempts": 3,
+        "last_practiced_at": 1786622400.0,
+        "uncertainty_count": 1
+      },
+      "exponents": {
+        "mastery": 0.57,
+        "attempts": 6,
+        "correct_attempts": 4,
+        "last_practiced_at": 1786708800.0,
+        "uncertainty_count": 0
+      }
+    },
+    "misconceptions": {
+      "inverse_operation_error": 3,
+      "coefficient_isolation_error": 2
+    },
+    "misconceptions_by_skill": {
+      "one_step_equations": {
+        "inverse_operation_error": 2
+      },
+      "two_step_equations": {
+        "inverse_operation_error": 1,
+        "coefficient_isolation_error": 2
+      }
+    }
+  }
+]

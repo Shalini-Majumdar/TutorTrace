@@ -1,0 +1,41 @@
+skill,param,class,value
+Percent Of,prior,default,0.6590700273201666
+Percent Of,learns,default,0.10942390607606906
+Percent Of,guesses,default,0.09107639686417554
+Percent Of,slips,default,0.28151005898164194
+Percent Of,forgets,default,0.0
+Proportion,prior,default,0.4935713017770049
+Proportion,learns,default,0.04042202955073015
+Proportion,guesses,default,0.3907658446754407
+Proportion,slips,default,0.15783133595448187
+Proportion,forgets,default,0.0
+Equation Solving Two or Fewer Steps,prior,default,0.618908477127196
+Equation Solving Two or Fewer Steps,learns,default,0.024751993456328846
+Equation Solving Two or Fewer Steps,guesses,default,0.3615414071943452
+Equation Solving Two or Fewer Steps,slips,default,0.22759643344711297
+Equation Solving Two or Fewer Steps,forgets,default,0.0
+Equation Solving More Than Two Steps,prior,default,0.30412570363934543
+Equation Solving More Than Two Steps,learns,default,0.8786017352994943
+Equation Solving More Than Two Steps,guesses,default,0.41136775936808057
+Equation Solving More Than Two Steps,slips,default,0.22931673492157947
+Equation Solving More Than Two Steps,forgets,default,0.0
+Addition and Subtraction Integers,prior,default,0.7194987301651438
+Addition and Subtraction Integers,learns,default,0.008523735941042592
+Addition and Subtraction Integers,guesses,default,0.3736948055572716
+Addition and Subtraction Integers,slips,default,0.209708488423983
+Addition and Subtraction Integers,forgets,default,0.0
+Addition and Subtraction Fractions,prior,default,0.7815335568641983
+Addition and Subtraction Fractions,learns,default,0.08192740905151395
+Addition and Subtraction Fractions,guesses,default,0.08607069195335727
+Addition and Subtraction Fractions,slips,default,0.2061234502712593
+Addition and Subtraction Fractions,forgets,default,0.0
+Conversion of Fraction Decimals Percents,prior,default,0.6232027224777092
+Conversion of Fraction Decimals Percents,learns,default,0.013827967436172256
+Conversion of Fraction Decimals Percents,guesses,default,0.42902124586111146
+Conversion of Fraction Decimals Percents,slips,default,0.2029221052257959
+Conversion of Fraction Decimals Percents,forgets,default,0.0
+Ordering Fractions,prior,default,0.6476930442967483
+Ordering Fractions,learns,default,0.06494487810695304
+Ordering Fractions,guesses,default,0.49895127332655
+Ordering Fractions,slips,default,0.07124537812498885
+Ordering Fractions,forgets,default,0.0

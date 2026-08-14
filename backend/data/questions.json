@@ -1,0 +1,777 @@
+[
+  {
+    "id": "int_001",
+    "skill_id": "integer_operations",
+    "difficulty": 1,
+    "expected_time_seconds": 10,
+    "prompt": "Evaluate: -4 + 9",
+    "options": [
+      {"id": "A", "text": "5", "correct": true},
+      {"id": "B", "text": "-13", "correct": false, "misconception": "sign_error"},
+      {"id": "C", "text": "13", "correct": false, "misconception": "absolute_value_confusion"},
+      {"id": "D", "text": "-5", "correct": false, "misconception": "larger_magnitude_sign_error"}
+    ],
+    "tags": ["integer_addition", "signed_numbers"],
+    "targets_misconceptions": ["sign_error", "absolute_value_confusion"],
+    "prerequisite_targets": []
+  },
+  {
+    "id": "int_002",
+    "skill_id": "integer_operations",
+    "difficulty": 1,
+    "expected_time_seconds": 10,
+    "prompt": "Evaluate: 6 - 11",
+    "options": [
+      {"id": "A", "text": "-5", "correct": true},
+      {"id": "B", "text": "5", "correct": false, "misconception": "subtraction_direction_error"},
+      {"id": "C", "text": "17", "correct": false, "misconception": "operation_confusion"},
+      {"id": "D", "text": "-17", "correct": false, "misconception": "sign_error"}
+    ],
+    "tags": ["integer_subtraction"],
+    "targets_misconceptions": ["subtraction_direction_error", "sign_error"],
+    "prerequisite_targets": []
+  },
+  {
+    "id": "int_003",
+    "skill_id": "integer_operations",
+    "difficulty": 1,
+    "expected_time_seconds": 10,
+    "prompt": "Evaluate: (-3)(5)",
+    "options": [
+      {"id": "A", "text": "-15", "correct": true},
+      {"id": "B", "text": "15", "correct": false, "misconception": "multiplication_sign_error"},
+      {"id": "C", "text": "2", "correct": false, "misconception": "operation_confusion"},
+      {"id": "D", "text": "-8", "correct": false, "misconception": "operation_confusion"}
+    ],
+    "tags": ["integer_multiplication"],
+    "targets_misconceptions": ["multiplication_sign_error"],
+    "prerequisite_targets": []
+  },
+  {
+    "id": "int_004",
+    "skill_id": "integer_operations",
+    "difficulty": 2,
+    "expected_time_seconds": 12,
+    "prompt": "Evaluate: -18 ÷ 3",
+    "options": [
+      {"id": "A", "text": "-6", "correct": true},
+      {"id": "B", "text": "6", "correct": false, "misconception": "division_sign_error"},
+      {"id": "C", "text": "-15", "correct": false, "misconception": "operation_confusion"},
+      {"id": "D", "text": "-54", "correct": false, "misconception": "operation_confusion"}
+    ],
+    "tags": ["integer_division"],
+    "targets_misconceptions": ["division_sign_error"],
+    "prerequisite_targets": []
+  },
+  {
+    "id": "int_005",
+    "skill_id": "integer_operations",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Evaluate: -7 - (-4)",
+    "options": [
+      {"id": "A", "text": "-3", "correct": true},
+      {"id": "B", "text": "-11", "correct": false, "misconception": "double_negative_error"},
+      {"id": "C", "text": "3", "correct": false, "misconception": "sign_error"},
+      {"id": "D", "text": "11", "correct": false, "misconception": "double_negative_error"}
+    ],
+    "tags": ["integer_subtraction", "double_negative"],
+    "targets_misconceptions": ["double_negative_error", "sign_error"],
+    "prerequisite_targets": []
+  },
+  {
+    "id": "int_006",
+    "skill_id": "integer_operations",
+    "difficulty": 3,
+    "expected_time_seconds": 18,
+    "prompt": "Evaluate: -6 + 4 - 9",
+    "options": [
+      {"id": "A", "text": "-11", "correct": true},
+      {"id": "B", "text": "-1", "correct": false, "misconception": "sign_error"},
+      {"id": "C", "text": "7", "correct": false, "misconception": "operation_order_error"},
+      {"id": "D", "text": "11", "correct": false, "misconception": "sign_error"}
+    ],
+    "tags": ["integer_operations", "multi_step"],
+    "targets_misconceptions": ["sign_error"],
+    "prerequisite_targets": []
+  },
+
+  {
+    "id": "frac_001",
+    "skill_id": "fraction_operations",
+    "difficulty": 1,
+    "expected_time_seconds": 15,
+    "prompt": "Calculate: 1/4 + 2/4",
+    "options": [
+      {"id": "A", "text": "3/4", "correct": true},
+      {"id": "B", "text": "3/8", "correct": false, "misconception": "add_denominators_error"},
+      {"id": "C", "text": "2/8", "correct": false, "misconception": "fraction_operation_error"},
+      {"id": "D", "text": "1/2", "correct": false, "misconception": "numerator_error"}
+    ],
+    "tags": ["fraction_addition", "common_denominator"],
+    "targets_misconceptions": ["add_denominators_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "frac_002",
+    "skill_id": "fraction_operations",
+    "difficulty": 1,
+    "expected_time_seconds": 15,
+    "prompt": "Calculate: 5/6 - 1/6",
+    "options": [
+      {"id": "A", "text": "2/3", "correct": true},
+      {"id": "B", "text": "4/6", "correct": false, "misconception": "unsimplified_fraction"},
+      {"id": "C", "text": "4/12", "correct": false, "misconception": "subtract_denominators_error"},
+      {"id": "D", "text": "1/6", "correct": false, "misconception": "numerator_error"}
+    ],
+    "tags": ["fraction_subtraction", "simplification"],
+    "targets_misconceptions": ["subtract_denominators_error", "unsimplified_fraction"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "frac_003",
+    "skill_id": "fraction_operations",
+    "difficulty": 2,
+    "expected_time_seconds": 20,
+    "prompt": "Calculate: 1/2 + 1/3",
+    "options": [
+      {"id": "A", "text": "5/6", "correct": true},
+      {"id": "B", "text": "2/5", "correct": false, "misconception": "add_denominators_error"},
+      {"id": "C", "text": "1/5", "correct": false, "misconception": "fraction_operation_error"},
+      {"id": "D", "text": "2/6", "correct": false, "misconception": "common_denominator_error"}
+    ],
+    "tags": ["fraction_addition", "lcd"],
+    "targets_misconceptions": ["common_denominator_error", "add_denominators_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "frac_004",
+    "skill_id": "fraction_operations",
+    "difficulty": 2,
+    "expected_time_seconds": 18,
+    "prompt": "Calculate: 2/3 × 3/5",
+    "options": [
+      {"id": "A", "text": "2/5", "correct": true},
+      {"id": "B", "text": "5/8", "correct": false, "misconception": "fraction_addition_confusion"},
+      {"id": "C", "text": "6/8", "correct": false, "misconception": "denominator_multiplication_error"},
+      {"id": "D", "text": "6/15", "correct": false, "misconception": "unsimplified_fraction"}
+    ],
+    "tags": ["fraction_multiplication"],
+    "targets_misconceptions": ["fraction_addition_confusion"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "frac_005",
+    "skill_id": "fraction_operations",
+    "difficulty": 2,
+    "expected_time_seconds": 20,
+    "prompt": "Calculate: 3/4 ÷ 1/2",
+    "options": [
+      {"id": "A", "text": "3/2", "correct": true},
+      {"id": "B", "text": "3/8", "correct": false, "misconception": "reciprocal_error"},
+      {"id": "C", "text": "2/3", "correct": false, "misconception": "reciprocal_wrong_fraction"},
+      {"id": "D", "text": "1/2", "correct": false, "misconception": "division_procedure_error"}
+    ],
+    "tags": ["fraction_division", "reciprocal"],
+    "targets_misconceptions": ["reciprocal_error", "reciprocal_wrong_fraction"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "frac_006",
+    "skill_id": "fraction_operations",
+    "difficulty": 3,
+    "expected_time_seconds": 25,
+    "prompt": "Calculate: 3/4 - 2/5",
+    "options": [
+      {"id": "A", "text": "7/20", "correct": true},
+      {"id": "B", "text": "1/1", "correct": false, "misconception": "subtract_denominators_error"},
+      {"id": "C", "text": "1/20", "correct": false, "misconception": "common_denominator_error"},
+      {"id": "D", "text": "5/9", "correct": false, "misconception": "fraction_operation_error"}
+    ],
+    "tags": ["fraction_subtraction", "lcd"],
+    "targets_misconceptions": ["common_denominator_error", "subtract_denominators_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+
+  {
+    "id": "order_001",
+    "skill_id": "order_of_operations",
+    "difficulty": 1,
+    "expected_time_seconds": 12,
+    "prompt": "Evaluate: 3 + 4 × 2",
+    "options": [
+      {"id": "A", "text": "11", "correct": true},
+      {"id": "B", "text": "14", "correct": false, "misconception": "left_to_right_error"},
+      {"id": "C", "text": "10", "correct": false, "misconception": "multiplication_error"},
+      {"id": "D", "text": "9", "correct": false, "misconception": "operation_order_error"}
+    ],
+    "tags": ["pemdas", "multiplication_before_addition"],
+    "targets_misconceptions": ["left_to_right_error", "operation_order_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "order_002",
+    "skill_id": "order_of_operations",
+    "difficulty": 1,
+    "expected_time_seconds": 12,
+    "prompt": "Evaluate: 18 ÷ 3 + 2",
+    "options": [
+      {"id": "A", "text": "8", "correct": true},
+      {"id": "B", "text": "3.6", "correct": false, "misconception": "addition_before_division_error"},
+      {"id": "C", "text": "4", "correct": false, "misconception": "division_error"},
+      {"id": "D", "text": "20", "correct": false, "misconception": "operation_order_error"}
+    ],
+    "tags": ["pemdas", "division_before_addition"],
+    "targets_misconceptions": ["addition_before_division_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "order_003",
+    "skill_id": "order_of_operations",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Evaluate: 2(3 + 5)",
+    "options": [
+      {"id": "A", "text": "16", "correct": true},
+      {"id": "B", "text": "11", "correct": false, "misconception": "parentheses_ignored"},
+      {"id": "C", "text": "10", "correct": false, "misconception": "partial_distribution_error"},
+      {"id": "D", "text": "13", "correct": false, "misconception": "operation_order_error"}
+    ],
+    "tags": ["parentheses", "multiplication"],
+    "targets_misconceptions": ["parentheses_ignored"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "order_004",
+    "skill_id": "order_of_operations",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Evaluate: 4 + 2² × 3",
+    "options": [
+      {"id": "A", "text": "16", "correct": true},
+      {"id": "B", "text": "36", "correct": false, "misconception": "left_to_right_error"},
+      {"id": "C", "text": "18", "correct": false, "misconception": "exponent_order_error"},
+      {"id": "D", "text": "10", "correct": false, "misconception": "exponent_evaluation_error"}
+    ],
+    "tags": ["pemdas", "exponents"],
+    "targets_misconceptions": ["exponent_order_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "order_005",
+    "skill_id": "order_of_operations",
+    "difficulty": 3,
+    "expected_time_seconds": 20,
+    "prompt": "Evaluate: 20 - 3 × (4 + 1)",
+    "options": [
+      {"id": "A", "text": "5", "correct": true},
+      {"id": "B", "text": "85", "correct": false, "misconception": "left_to_right_error"},
+      {"id": "C", "text": "17", "correct": false, "misconception": "parentheses_ignored"},
+      {"id": "D", "text": "25", "correct": false, "misconception": "multiplication_order_error"}
+    ],
+    "tags": ["pemdas", "parentheses", "multi_step"],
+    "targets_misconceptions": ["parentheses_ignored", "left_to_right_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "order_006",
+    "skill_id": "order_of_operations",
+    "difficulty": 3,
+    "expected_time_seconds": 22,
+    "prompt": "Evaluate: 24 ÷ (2 × 3) + 5",
+    "options": [
+      {"id": "A", "text": "9", "correct": true},
+      {"id": "B", "text": "41", "correct": false, "misconception": "parentheses_ignored"},
+      {"id": "C", "text": "17", "correct": false, "misconception": "left_to_right_error"},
+      {"id": "D", "text": "4", "correct": false, "misconception": "final_addition_omitted"}
+    ],
+    "tags": ["pemdas", "parentheses"],
+    "targets_misconceptions": ["parentheses_ignored", "left_to_right_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+
+  {
+    "id": "dist_001",
+    "skill_id": "distributive_property",
+    "difficulty": 1,
+    "expected_time_seconds": 12,
+    "prompt": "Expand: 3(x + 4)",
+    "options": [
+      {"id": "A", "text": "3x + 12", "correct": true},
+      {"id": "B", "text": "3x + 4", "correct": false, "misconception": "partial_distribution_error"},
+      {"id": "C", "text": "x + 12", "correct": false, "misconception": "variable_distribution_error"},
+      {"id": "D", "text": "7x", "correct": false, "misconception": "term_combination_error"}
+    ],
+    "tags": ["distribution", "expansion"],
+    "targets_misconceptions": ["partial_distribution_error"],
+    "prerequisite_targets": ["integer_operations", "order_of_operations"]
+  },
+  {
+    "id": "dist_002",
+    "skill_id": "distributive_property",
+    "difficulty": 1,
+    "expected_time_seconds": 12,
+    "prompt": "Expand: 5(a - 2)",
+    "options": [
+      {"id": "A", "text": "5a - 10", "correct": true},
+      {"id": "B", "text": "5a - 2", "correct": false, "misconception": "partial_distribution_error"},
+      {"id": "C", "text": "5a + 10", "correct": false, "misconception": "sign_distribution_error"},
+      {"id": "D", "text": "3a", "correct": false, "misconception": "term_combination_error"}
+    ],
+    "tags": ["distribution", "subtraction"],
+    "targets_misconceptions": ["partial_distribution_error", "sign_distribution_error"],
+    "prerequisite_targets": ["integer_operations", "order_of_operations"]
+  },
+  {
+    "id": "dist_003",
+    "skill_id": "distributive_property",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Expand: -2(x + 3)",
+    "options": [
+      {"id": "A", "text": "-2x - 6", "correct": true},
+      {"id": "B", "text": "-2x + 6", "correct": false, "misconception": "negative_distribution_error"},
+      {"id": "C", "text": "-2x + 3", "correct": false, "misconception": "partial_distribution_error"},
+      {"id": "D", "text": "2x + 6", "correct": false, "misconception": "sign_error"}
+    ],
+    "tags": ["distribution", "negative_coefficient"],
+    "targets_misconceptions": ["negative_distribution_error", "partial_distribution_error"],
+    "prerequisite_targets": ["integer_operations", "order_of_operations"]
+  },
+  {
+    "id": "dist_004",
+    "skill_id": "distributive_property",
+    "difficulty": 2,
+    "expected_time_seconds": 18,
+    "prompt": "Simplify: 4(x + 2) + 3x",
+    "options": [
+      {"id": "A", "text": "7x + 8", "correct": true},
+      {"id": "B", "text": "7x + 2", "correct": false, "misconception": "partial_distribution_error"},
+      {"id": "C", "text": "4x + 8", "correct": false, "misconception": "like_terms_error"},
+      {"id": "D", "text": "7x + 6", "correct": false, "misconception": "distribution_arithmetic_error"}
+    ],
+    "tags": ["distribution", "combine_like_terms"],
+    "targets_misconceptions": ["partial_distribution_error", "like_terms_error"],
+    "prerequisite_targets": ["integer_operations", "order_of_operations"]
+  },
+  {
+    "id": "dist_005",
+    "skill_id": "distributive_property",
+    "difficulty": 3,
+    "expected_time_seconds": 20,
+    "prompt": "Simplify: -3(2x - 5)",
+    "options": [
+      {"id": "A", "text": "-6x + 15", "correct": true},
+      {"id": "B", "text": "-6x - 15", "correct": false, "misconception": "negative_distribution_error"},
+      {"id": "C", "text": "-6x + 5", "correct": false, "misconception": "partial_distribution_error"},
+      {"id": "D", "text": "6x - 15", "correct": false, "misconception": "sign_error"}
+    ],
+    "tags": ["distribution", "negative_coefficient"],
+    "targets_misconceptions": ["negative_distribution_error"],
+    "prerequisite_targets": ["integer_operations", "order_of_operations"]
+  },
+  {
+    "id": "dist_006",
+    "skill_id": "distributive_property",
+    "difficulty": 3,
+    "expected_time_seconds": 22,
+    "prompt": "Simplify: 2(3x - 4) - (x + 5)",
+    "options": [
+      {"id": "A", "text": "5x - 13", "correct": true},
+      {"id": "B", "text": "5x + 1", "correct": false, "misconception": "negative_distribution_error"},
+      {"id": "C", "text": "7x - 13", "correct": false, "misconception": "like_terms_error"},
+      {"id": "D", "text": "5x - 3", "correct": false, "misconception": "partial_distribution_error"}
+    ],
+    "tags": ["distribution", "combine_like_terms", "multi_step"],
+    "targets_misconceptions": ["negative_distribution_error", "like_terms_error"],
+    "prerequisite_targets": ["integer_operations", "order_of_operations"]
+  },
+
+  {
+    "id": "eq_one_001",
+    "skill_id": "one_step_equations",
+    "difficulty": 1,
+    "expected_time_seconds": 12,
+    "prompt": "Solve: x + 7 = 12",
+    "options": [
+      {"id": "A", "text": "x = 5", "correct": true},
+      {"id": "B", "text": "x = 19", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "C", "text": "x = -5", "correct": false, "misconception": "sign_error"},
+      {"id": "D", "text": "x = 12", "correct": false, "misconception": "variable_isolation_error"}
+    ],
+    "tags": ["inverse_operations", "addition_equation"],
+    "targets_misconceptions": ["inverse_operation_error", "sign_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "eq_one_002",
+    "skill_id": "one_step_equations",
+    "difficulty": 1,
+    "expected_time_seconds": 12,
+    "prompt": "Solve: x - 9 = 4",
+    "options": [
+      {"id": "A", "text": "x = 13", "correct": true},
+      {"id": "B", "text": "x = -5", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "C", "text": "x = 5", "correct": false, "misconception": "sign_error"},
+      {"id": "D", "text": "x = 4", "correct": false, "misconception": "variable_isolation_error"}
+    ],
+    "tags": ["inverse_operations", "subtraction_equation"],
+    "targets_misconceptions": ["inverse_operation_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "eq_one_003",
+    "skill_id": "one_step_equations",
+    "difficulty": 1,
+    "expected_time_seconds": 12,
+    "prompt": "Solve: 4x = 20",
+    "options": [
+      {"id": "A", "text": "x = 5", "correct": true},
+      {"id": "B", "text": "x = 16", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "C", "text": "x = 80", "correct": false, "misconception": "multiplication_instead_of_division"},
+      {"id": "D", "text": "x = 4", "correct": false, "misconception": "coefficient_isolation_error"}
+    ],
+    "tags": ["coefficient_isolation", "division"],
+    "targets_misconceptions": ["coefficient_isolation_error", "inverse_operation_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "eq_one_004",
+    "skill_id": "one_step_equations",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Solve: x/3 = 7",
+    "options": [
+      {"id": "A", "text": "x = 21", "correct": true},
+      {"id": "B", "text": "x = 7/3", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "C", "text": "x = 10", "correct": false, "misconception": "operation_confusion"},
+      {"id": "D", "text": "x = 4", "correct": false, "misconception": "operation_confusion"}
+    ],
+    "tags": ["inverse_operations", "multiplication"],
+    "targets_misconceptions": ["inverse_operation_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "eq_one_005",
+    "skill_id": "one_step_equations",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Solve: -5x = 30",
+    "options": [
+      {"id": "A", "text": "x = -6", "correct": true},
+      {"id": "B", "text": "x = 6", "correct": false, "misconception": "sign_error"},
+      {"id": "C", "text": "x = -25", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "D", "text": "x = -150", "correct": false, "misconception": "multiplication_instead_of_division"}
+    ],
+    "tags": ["negative_coefficient", "coefficient_isolation"],
+    "targets_misconceptions": ["sign_error", "coefficient_isolation_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "eq_one_006",
+    "skill_id": "one_step_equations",
+    "difficulty": 3,
+    "expected_time_seconds": 18,
+    "prompt": "Solve: x/(-4) = 6",
+    "options": [
+      {"id": "A", "text": "x = -24", "correct": true},
+      {"id": "B", "text": "x = 24", "correct": false, "misconception": "sign_error"},
+      {"id": "C", "text": "x = -1.5", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "D", "text": "x = 2", "correct": false, "misconception": "operation_confusion"}
+    ],
+    "tags": ["negative_numbers", "inverse_operations"],
+    "targets_misconceptions": ["sign_error", "inverse_operation_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+
+  {
+    "id": "eq_two_001",
+    "skill_id": "two_step_equations",
+    "difficulty": 1,
+    "expected_time_seconds": 18,
+    "prompt": "Solve: 2x + 5 = 11",
+    "options": [
+      {"id": "A", "text": "x = 3", "correct": true},
+      {"id": "B", "text": "x = 8", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "C", "text": "x = 5.5", "correct": false, "misconception": "coefficient_isolation_error"},
+      {"id": "D", "text": "x = -3", "correct": false, "misconception": "sign_error"}
+    ],
+    "tags": ["inverse_operations", "two_step"],
+    "targets_misconceptions": ["inverse_operation_error", "coefficient_isolation_error"],
+    "prerequisite_targets": ["one_step_equations", "order_of_operations"]
+  },
+  {
+    "id": "eq_two_002",
+    "skill_id": "two_step_equations",
+    "difficulty": 1,
+    "expected_time_seconds": 18,
+    "prompt": "Solve: 3x - 4 = 11",
+    "options": [
+      {"id": "A", "text": "x = 5", "correct": true},
+      {"id": "B", "text": "x = 7/3", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "C", "text": "x = 15", "correct": false, "misconception": "coefficient_isolation_error"},
+      {"id": "D", "text": "x = -5", "correct": false, "misconception": "sign_error"}
+    ],
+    "tags": ["inverse_operations", "two_step"],
+    "targets_misconceptions": ["inverse_operation_error", "coefficient_isolation_error"],
+    "prerequisite_targets": ["one_step_equations", "order_of_operations"]
+  },
+  {
+    "id": "eq_two_003",
+    "skill_id": "two_step_equations",
+    "difficulty": 2,
+    "expected_time_seconds": 20,
+    "prompt": "Solve: 5x + 7 = 32",
+    "options": [
+      {"id": "A", "text": "x = 5", "correct": true},
+      {"id": "B", "text": "x = 7.8", "correct": false, "misconception": "coefficient_isolation_error"},
+      {"id": "C", "text": "x = 25", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "D", "text": "x = -5", "correct": false, "misconception": "sign_error"}
+    ],
+    "tags": ["two_step", "coefficient_isolation"],
+    "targets_misconceptions": ["coefficient_isolation_error", "inverse_operation_error"],
+    "prerequisite_targets": ["one_step_equations", "order_of_operations"]
+  },
+  {
+    "id": "eq_two_004",
+    "skill_id": "two_step_equations",
+    "difficulty": 2,
+    "expected_time_seconds": 22,
+    "prompt": "Solve: 4x - 9 = -1",
+    "options": [
+      {"id": "A", "text": "x = 2", "correct": true},
+      {"id": "B", "text": "x = -2", "correct": false, "misconception": "sign_error"},
+      {"id": "C", "text": "x = 8", "correct": false, "misconception": "coefficient_isolation_error"},
+      {"id": "D", "text": "x = -10/4", "correct": false, "misconception": "inverse_operation_error"}
+    ],
+    "tags": ["two_step", "negative_numbers"],
+    "targets_misconceptions": ["sign_error", "inverse_operation_error"],
+    "prerequisite_targets": ["one_step_equations", "order_of_operations"]
+  },
+  {
+    "id": "eq_two_005",
+    "skill_id": "two_step_equations",
+    "difficulty": 3,
+    "expected_time_seconds": 25,
+    "prompt": "Solve: -3x + 8 = 20",
+    "options": [
+      {"id": "A", "text": "x = -4", "correct": true},
+      {"id": "B", "text": "x = 4", "correct": false, "misconception": "sign_error"},
+      {"id": "C", "text": "x = -28/3", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "D", "text": "x = 12", "correct": false, "misconception": "coefficient_isolation_error"}
+    ],
+    "tags": ["two_step", "negative_coefficient"],
+    "targets_misconceptions": ["sign_error", "coefficient_isolation_error"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+  {
+    "id": "eq_two_006",
+    "skill_id": "two_step_equations",
+    "difficulty": 3,
+    "expected_time_seconds": 25,
+    "prompt": "Solve: 7 - 2x = 15",
+    "options": [
+      {"id": "A", "text": "x = -4", "correct": true},
+      {"id": "B", "text": "x = 4", "correct": false, "misconception": "sign_error"},
+      {"id": "C", "text": "x = -11", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "D", "text": "x = 11", "correct": false, "misconception": "coefficient_isolation_error"}
+    ],
+    "tags": ["two_step", "negative_coefficient"],
+    "targets_misconceptions": ["sign_error", "inverse_operation_error"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+
+  {
+    "id": "ineq_001",
+    "skill_id": "inequalities",
+    "difficulty": 1,
+    "expected_time_seconds": 15,
+    "prompt": "Solve: x + 4 > 9",
+    "options": [
+      {"id": "A", "text": "x > 5", "correct": true},
+      {"id": "B", "text": "x < 5", "correct": false, "misconception": "inequality_direction_error"},
+      {"id": "C", "text": "x > 13", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "D", "text": "x = 5", "correct": false, "misconception": "inequality_as_equation_error"}
+    ],
+    "tags": ["inequality", "inverse_operations"],
+    "targets_misconceptions": ["inequality_direction_error", "inequality_as_equation_error"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+  {
+    "id": "ineq_002",
+    "skill_id": "inequalities",
+    "difficulty": 1,
+    "expected_time_seconds": 15,
+    "prompt": "Solve: x - 3 ≤ 7",
+    "options": [
+      {"id": "A", "text": "x ≤ 10", "correct": true},
+      {"id": "B", "text": "x ≥ 10", "correct": false, "misconception": "inequality_direction_error"},
+      {"id": "C", "text": "x ≤ 4", "correct": false, "misconception": "inverse_operation_error"},
+      {"id": "D", "text": "x = 10", "correct": false, "misconception": "inequality_as_equation_error"}
+    ],
+    "tags": ["inequality", "inverse_operations"],
+    "targets_misconceptions": ["inequality_direction_error"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+  {
+    "id": "ineq_003",
+    "skill_id": "inequalities",
+    "difficulty": 2,
+    "expected_time_seconds": 18,
+    "prompt": "Solve: 3x > 12",
+    "options": [
+      {"id": "A", "text": "x > 4", "correct": true},
+      {"id": "B", "text": "x < 4", "correct": false, "misconception": "unnecessary_sign_flip"},
+      {"id": "C", "text": "x > 36", "correct": false, "misconception": "multiplication_instead_of_division"},
+      {"id": "D", "text": "x = 4", "correct": false, "misconception": "inequality_as_equation_error"}
+    ],
+    "tags": ["inequality", "coefficient_isolation"],
+    "targets_misconceptions": ["unnecessary_sign_flip"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+  {
+    "id": "ineq_004",
+    "skill_id": "inequalities",
+    "difficulty": 2,
+    "expected_time_seconds": 20,
+    "prompt": "Solve: -2x > 8",
+    "options": [
+      {"id": "A", "text": "x < -4", "correct": true},
+      {"id": "B", "text": "x > -4", "correct": false, "misconception": "negative_division_sign_flip_error"},
+      {"id": "C", "text": "x < 4", "correct": false, "misconception": "sign_error"},
+      {"id": "D", "text": "x > 4", "correct": false, "misconception": "sign_and_direction_error"}
+    ],
+    "tags": ["inequality", "negative_coefficient", "sign_reversal"],
+    "targets_misconceptions": ["negative_division_sign_flip_error", "sign_and_direction_error"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+  {
+    "id": "ineq_005",
+    "skill_id": "inequalities",
+    "difficulty": 3,
+    "expected_time_seconds": 22,
+    "prompt": "Solve: 2x + 3 ≤ 11",
+    "options": [
+      {"id": "A", "text": "x ≤ 4", "correct": true},
+      {"id": "B", "text": "x ≥ 4", "correct": false, "misconception": "inequality_direction_error"},
+      {"id": "C", "text": "x ≤ 7", "correct": false, "misconception": "coefficient_isolation_error"},
+      {"id": "D", "text": "x = 4", "correct": false, "misconception": "inequality_as_equation_error"}
+    ],
+    "tags": ["two_step_inequality"],
+    "targets_misconceptions": ["inequality_direction_error", "coefficient_isolation_error"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+  {
+    "id": "ineq_006",
+    "skill_id": "inequalities",
+    "difficulty": 3,
+    "expected_time_seconds": 25,
+    "prompt": "Solve: 5 - 3x ≥ 14",
+    "options": [
+      {"id": "A", "text": "x ≤ -3", "correct": true},
+      {"id": "B", "text": "x ≥ -3", "correct": false, "misconception": "negative_division_sign_flip_error"},
+      {"id": "C", "text": "x ≤ 3", "correct": false, "misconception": "sign_error"},
+      {"id": "D", "text": "x ≥ 3", "correct": false, "misconception": "sign_and_direction_error"}
+    ],
+    "tags": ["two_step_inequality", "sign_reversal"],
+    "targets_misconceptions": ["negative_division_sign_flip_error", "sign_and_direction_error"],
+    "prerequisite_targets": ["one_step_equations", "integer_operations"]
+  },
+
+  {
+    "id": "exp_001",
+    "skill_id": "exponents",
+    "difficulty": 1,
+    "expected_time_seconds": 10,
+    "prompt": "Evaluate: 2³",
+    "options": [
+      {"id": "A", "text": "8", "correct": true},
+      {"id": "B", "text": "6", "correct": false, "misconception": "exponent_as_multiplication_error"},
+      {"id": "C", "text": "9", "correct": false, "misconception": "base_exponent_confusion"},
+      {"id": "D", "text": "5", "correct": false, "misconception": "base_plus_exponent_error"}
+    ],
+    "tags": ["exponent_definition"],
+    "targets_misconceptions": ["exponent_as_multiplication_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "exp_002",
+    "skill_id": "exponents",
+    "difficulty": 1,
+    "expected_time_seconds": 10,
+    "prompt": "Evaluate: 5²",
+    "options": [
+      {"id": "A", "text": "25", "correct": true},
+      {"id": "B", "text": "10", "correct": false, "misconception": "exponent_as_multiplication_error"},
+      {"id": "C", "text": "7", "correct": false, "misconception": "base_plus_exponent_error"},
+      {"id": "D", "text": "32", "correct": false, "misconception": "base_exponent_confusion"}
+    ],
+    "tags": ["squares", "exponent_definition"],
+    "targets_misconceptions": ["exponent_as_multiplication_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "exp_003",
+    "skill_id": "exponents",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Simplify: 2³ × 2²",
+    "options": [
+      {"id": "A", "text": "2⁵", "correct": true},
+      {"id": "B", "text": "4⁵", "correct": false, "misconception": "multiply_bases_error"},
+      {"id": "C", "text": "2⁶", "correct": false, "misconception": "multiply_exponents_error"},
+      {"id": "D", "text": "2¹", "correct": false, "misconception": "subtract_exponents_error"}
+    ],
+    "tags": ["product_rule", "same_base"],
+    "targets_misconceptions": ["multiply_exponents_error", "multiply_bases_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "exp_004",
+    "skill_id": "exponents",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Simplify: 3⁵ ÷ 3²",
+    "options": [
+      {"id": "A", "text": "3³", "correct": true},
+      {"id": "B", "text": "3⁷", "correct": false, "misconception": "add_exponents_on_division"},
+      {"id": "C", "text": "1³", "correct": false, "misconception": "divide_bases_error"},
+      {"id": "D", "text": "3¹⁰", "correct": false, "misconception": "multiply_exponents_error"}
+    ],
+    "tags": ["quotient_rule", "same_base"],
+    "targets_misconceptions": ["add_exponents_on_division", "divide_bases_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "exp_005",
+    "skill_id": "exponents",
+    "difficulty": 2,
+    "expected_time_seconds": 15,
+    "prompt": "Evaluate: 7⁰",
+    "options": [
+      {"id": "A", "text": "1", "correct": true},
+      {"id": "B", "text": "0", "correct": false, "misconception": "zero_exponent_error"},
+      {"id": "C", "text": "7", "correct": false, "misconception": "zero_exponent_identity_error"},
+      {"id": "D", "text": "49", "correct": false, "misconception": "exponent_definition_error"}
+    ],
+    "tags": ["zero_exponent"],
+    "targets_misconceptions": ["zero_exponent_error"],
+    "prerequisite_targets": ["integer_operations"]
+  },
+  {
+    "id": "exp_006",
+    "skill_id": "exponents",
+    "difficulty": 3,
+    "expected_time_seconds": 20,
+    "prompt": "Simplify: (2³)²",
+    "options": [
+      {"id": "A", "text": "2⁶", "correct": true},
+      {"id": "B", "text": "2⁵", "correct": false, "misconception": "add_exponents_power_rule"},
+      {"id": "C", "text": "4⁶", "correct": false, "misconception": "base_squaring_error"},
+      {"id": "D", "text": "2⁹", "correct": false, "misconception": "incorrect_power_rule"}
+    ],
+    "tags": ["power_of_power"],
+    "targets_misconceptions": ["add_exponents_power_rule", "incorrect_power_rule"],
+    "prerequisite_targets": ["integer_operations"]
+  }
+]

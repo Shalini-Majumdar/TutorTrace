@@ -1,0 +1,19 @@
+{
+    "test_auc": 0.7012832286407736,
+    "test_rmse": 0.44252281421330586,
+    "num_skills": 8,
+    "num_train_rows": 82550,
+    "num_test_rows": 19725,
+    "num_train_students": 2346,
+    "num_test_students": 587,
+    "skills": [
+        "Addition and Subtraction Fractions",
+        "Addition and Subtraction Integers",
+        "Conversion of Fraction Decimals Percents",
+        "Equation Solving More Than Two Steps",
+        "Equation Solving Two or Fewer Steps",
+        "Ordering Fractions",
+        "Percent Of",
+        "Proportion"
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "integer_operations": {
+        "display_name": "Integer Operations",
+        "mapping_method": "direct_related_fitted_skill",
+        "source_skills": [
+            "Addition and Subtraction Integers"
+        ],
+        "parameters": {
+            "p_l0": 0.719499,
+            "p_t": 0.008524,
+            "p_g": 0.373695,
+            "p_s": 0.209708
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    },
+    "fraction_operations": {
+        "display_name": "Fraction Operations",
+        "mapping_method": "related_fitted_skill_mean",
+        "source_skills": [
+            "Addition and Subtraction Fractions",
+            "Conversion of Fraction Decimals Percents"
+        ],
+        "parameters": {
+            "p_l0": 0.702368,
+            "p_t": 0.047878,
+            "p_g": 0.257546,
+            "p_s": 0.204522
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    },
+    "order_of_operations": {
+        "display_name": "Order of Operations",
+        "mapping_method": "direct_related_fitted_skill",
+        "source_skills": [
+            "Addition and Subtraction Integers"
+        ],
+        "parameters": {
+            "p_l0": 0.719499,
+            "p_t": 0.008524,
+            "p_g": 0.373695,
+            "p_s": 0.209708
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    },
+    "distributive_property": {
+        "display_name": "Distributive Property",
+        "mapping_method": "direct_related_fitted_skill",
+        "source_skills": [
+            "Equation Solving Two or Fewer Steps"
+        ],
+        "parameters": {
+            "p_l0": 0.618908,
+            "p_t": 0.024752,
+            "p_g": 0.361541,
+            "p_s": 0.227596
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    },
+    "one_step_equations": {
+        "display_name": "One-Step Equations",
+        "mapping_method": "direct_related_fitted_skill",
+        "source_skills": [
+            "Equation Solving Two or Fewer Steps"
+        ],
+        "parameters": {
+            "p_l0": 0.618908,
+            "p_t": 0.024752,
+            "p_g": 0.361541,
+            "p_s": 0.227596
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    },
+    "two_step_equations": {
+        "display_name": "Two-Step Equations",
+        "mapping_method": "global_fitted_mean_fallback",
+        "source_skills": [],
+        "parameters": {
+            "p_l0": 0.60595,
+            "p_t": 0.152803,
+            "p_g": 0.330311,
+            "p_s": 0.198281
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    },
+    "inequalities": {
+        "display_name": "Inequalities",
+        "mapping_method": "related_fitted_skill_mean",
+        "source_skills": [
+            "Equation Solving Two or Fewer Steps",
+            "Addition and Subtraction Integers"
+        ],
+        "parameters": {
+            "p_l0": 0.669204,
+            "p_t": 0.016638,
+            "p_g": 0.367618,
+            "p_s": 0.218652
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    },
+    "exponents": {
+        "display_name": "Exponents",
+        "mapping_method": "global_fitted_mean_fallback",
+        "source_skills": [],
+        "parameters": {
+            "p_l0": 0.60595,
+            "p_t": 0.152803,
+            "p_g": 0.330311,
+            "p_s": 0.198281
+        },
+        "note": "Parameters are initialization priors derived from fitted ASSISTments BKT models. They are not claimed to be directly fitted on the TutorTrace demo concept."
+    }
+}

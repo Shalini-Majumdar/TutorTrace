@@ -1,0 +1,34 @@
+{
+  "integer_operations": [],
+
+  "fraction_operations": [
+    "integer_operations"
+  ],
+
+  "order_of_operations": [
+    "integer_operations"
+  ],
+
+  "distributive_property": [
+    "integer_operations",
+    "order_of_operations"
+  ],
+
+  "one_step_equations": [
+    "integer_operations"
+  ],
+
+  "two_step_equations": [
+    "one_step_equations",
+    "order_of_operations"
+  ],
+
+  "inequalities": [
+    "one_step_equations",
+    "integer_operations"
+  ],
+
+  "exponents": [
+    "integer_operations"
+  ]
+}
