@@ -1,16 +1,12 @@
 # TutorTrace
 
-> **An explainable adaptive learning engine that models what a student knows, understands why they struggle, and decides what they should learn next.**
-
-TutorTrace is an adaptive tutoring platform built around **Bayesian Knowledge Tracing (BKT)**. Instead of reducing learning to right/wrong answers or a single score, it maintains a live probabilistic model of each learner and uses misconceptions, response time, prerequisites, uncertainty, and forgetting to decide what should happen next.
+TutorTrace is an adaptive tutoring platform built around Bayesian Knowledge Tracing (BKT) that maintains a live probability of mastery for every learner and skill.
 
 ## The Problem
 
 Most learning platforms treat two students with the same score as equally skilled, even when their underlying problems are completely different.
 
-A wrong answer could mean the student does not know the concept, has a specific misconception, is missing a prerequisite, rushed through the question, or simply does not know the answer.
-
-**TutorTrace was built to understand that difference.**
+A wrong answer can reveal more than failure; it may indicate a recurring misconception, a weak prerequisite skill, a rushed mistake, or genuine uncertainty (“I don’t know”). TutorTrace combines these signals with knowledge decay over time to understand why a learner is struggling and decide what they should practice next.
 
 ## What Makes TutorTrace Different?
 
@@ -46,14 +42,6 @@ Wrong options can be tagged with the misconception they represent. If a learner 
 ### 6. Prerequisite Diagnosis
 
 If a learner struggles with Two-Step Equations, the real problem may be One-Step Equations.
-
-```text
-Two-Step Equations
-        ↓
-One-Step Equations
-        ↓
-Integer Operations
-```
 
 TutorTrace can temporarily pivot to the weaker foundational skill and return to the original topic once that prerequisite improves.
 
@@ -171,7 +159,7 @@ The frontend never reimplements BKT or adaptive logic; the backend remains the s
 ## Live Deployment
 
 **TutorTrace:**
-https://tutor-trace-93050tgck-shells-projects-19c05890.vercel.app
+tutor-trace-alpha.vercel.app
 
 **Frontend:** Vercel
 **Backend:** Render
@@ -181,13 +169,13 @@ https://tutor-trace-93050tgck-shells-projects-19c05890.vercel.app
 
 ### 1. Adaptive Student Experience
 
-<!-- Add screenshot here -->
+
 
 *Main question interface with skill, difficulty, confidence input, and “I don't know”.*
 
 ### 2. Response-Aware Learning
 
-<!-- Add screenshot here -->
+
 
 *Correct answer requiring extra time, demonstrating `slow_correct` evidence.*
 
@@ -217,13 +205,13 @@ https://tutor-trace-93050tgck-shells-projects-19c05890.vercel.app
 
 ### 7. Teacher Heatmap
 
-<!-- Add screenshot here -->
+
 
 *Simulated classroom mastery heatmap highlighting common weaknesses.*
 
 ### 8. Teacher Intervention Alert
 
-<!-- Add screenshot here -->
+
 
 *Class-wide weakness paired with a prerequisite-based recommendation.*
 
