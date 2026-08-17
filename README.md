@@ -131,13 +131,13 @@ This turns learner analytics into **actionable teaching decisions**.
 
 ## Tech Stack
 
-**Frontend:** React, JavaScript, HTML, CSS, Tailwind CSS
-**Backend:** Python 3.11, FastAPI, Pydantic, Uvicorn
-**ML / Adaptive Logic:** Bayesian Knowledge Tracing, pyBKT, NumPy, Bayesian inference, epsilon-greedy selection, prerequisite graphs, misconception fingerprinting, memory decay
-**Testing:** pytest, httpx, FastAPI TestClient
-**Tools:** Git, GitHub, VS Code, Swagger/OpenAPI
-**Deployment:** Vercel frontend + Render backend
-**Data:** ASSISTments Skill Builder dataset, JSON model/configuration files, in-memory learner state
+* **Frontend:** React, JavaScript, HTML, CSS, Tailwind CSS
+* **Backend:** Python 3.11, FastAPI, Pydantic, Uvicorn
+* **ML / Adaptive Logic:** Bayesian Knowledge Tracing, pyBKT, NumPy, Bayesian inference, epsilon-greedy selection, prerequisite graphs, misconception fingerprinting, memory decay
+* **Testing:** pytest, httpx, FastAPI TestClient
+* **Tools:** Git, GitHub, VS Code, Swagger/OpenAPI
+* **Deployment:** Vercel frontend + Render backend
+* **Data:** ASSISTments Skill Builder dataset, JSON model/configuration files, in-memory learner state
 
 ## Architecture
 
@@ -160,10 +160,6 @@ The frontend never reimplements BKT or adaptive logic; the backend remains the s
 
 **TutorTrace:**
 tutor-trace-alpha.vercel.app
-
-**Frontend:** Vercel
-**Backend:** Render
-**Communication:** HTTPS REST API
 
 ## Screenshots / Demo
 
